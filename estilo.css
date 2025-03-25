@@ -1,0 +1,60 @@
+body{
+	background-color:lightgreen;
+	background-image:url("./fondo.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.portada{
+	text-align:center;
+}
+h1{
+	color:red;
+	text-align:center;
+	text-decoration:underline;
+	/*Tipografía GoogleFont*/
+	font-family: 'Arvo' , sans-serif;
+}
+h2{
+	color:blue;
+	text-align:center;
+	font-style:italic;
+	font-weight:bold;
+	/*Tipografía GoogleFont*/
+	font-family: 'Boldonse' , sans-serif;
+}
+ul{
+	color:green;
+	font-family:sans-serif;
+}
+
+/* Estilos para el botón */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+/* Modificación de estilo cuando el cursor está encima del botón*/
+button:hover {
+    background-color: blue;
+}
+/* Ubicación */
+.boton-container{
+	text-align:center;
+}
+#map {
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+#info {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
